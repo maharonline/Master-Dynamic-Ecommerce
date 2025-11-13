@@ -1,0 +1,47 @@
+{
+  "type": "SharedSlice",
+  "id": "media_text_duo_grid",
+  "name": "About",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Standard two-column grid: each row contains a media (image/video) and a text block, left/right order can be swapped per row.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "rows": {
+          "type": "Group",
+          "config": {
+            "label": "Rows",
+            "fields": {
+              "media_image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "label": "Media Image"
+                }
+              },
+              "heading": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading3",
+                  "label": "Heading"
+                }
+              },
+              "body": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph,strong,em,hyperlink",
+                  "label": "Body"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

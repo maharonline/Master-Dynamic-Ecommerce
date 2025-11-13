@@ -1,0 +1,84 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"slides": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88",
+										"width": 3168,
+										"height": 4752
+									},
+									"url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88",
+									"width": 3168,
+									"height": 4752,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "forgotten",
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "heading1",
+											"content": {
+												"text": "Spend"
+											}
+										}
+									]
+								}
+							],
+							[
+								"button",
+								{
+									"key": "7c91ef75-26c5-4725-8fc1-2c9252d17db9",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://twitter.com",
+										"text": "between"
+									}
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Quis magna esse laboris dolore proident id sit fugiat veniam mollit eiusmod culpa."
+											}
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

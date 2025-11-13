@@ -1,0 +1,324 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"productfeature2": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
+										"width": 3648,
+										"height": 4560
+									},
+									"url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
+									"width": 3648,
+									"height": 4560,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "wire",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "path",
+									"type": "Text"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "next",
+									"type": "Text"
+								}
+							],
+							[
+								"button",
+								{
+									"key": "d99a14ba-e3a4-49de-94aa-37d8a3002d6b",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "think"
+									}
+								}
+							]
+						]
+					}
+				]
+			},
+			"productfeatureback2": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"backgroundimage",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a",
+										"width": 3024,
+										"height": 3778
+									},
+									"url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a",
+									"width": 3024,
+									"height": 3778,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "guard",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"eyebrow",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "year",
+									"type": "Text"
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "heading2",
+											"content": {
+												"text": "Plates"
+											}
+										}
+									]
+								}
+							],
+							[
+								"cta_button",
+								{
+									"key": "aebe1335-30a6-4e7e-8294-e3038df56b1b",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "range"
+									}
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "own",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"highlighted_grid_heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Sudden"
+						}
+					}
+				]
+			},
+			"highlighted_grid_description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Nulla eu pariatur aliquip ad anim sint commodo aliquip. Nostrud tempor ex labore occaecat sunt cupidatat ex quis voluptate dolor officia cupidatat."
+						}
+					}
+				]
+			},
+			"highlighted_grid_feature": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+										"width": 5243,
+										"height": 3495
+									},
+									"url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+									"width": 5243,
+									"height": 3495,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "swim",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "wise",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"highlighted_grid_support_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Exercitation ad aliqua quis tempor nulla aliquip eiusmod nisi tempor sint et commodo deserunt enim. Est eiusmod fugiat quis est adipisicing laboris occaecat sunt sint sint sint quis. Fugiat nostrud minim culpa reprehenderit magna aliquip consectetur est anim do elit ullamco cupidatat."
+						}
+					}
+				]
+			},
+			"highlighted_grid_cta_button": {
+				"key": "62ec2a99-c0ec-4944-92bb-10b282357aed",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "spoken"
+				}
+			},
+			"banner_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+					"width": 4272,
+					"height": 2848
+				},
+				"url": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+				"width": 4272,
+				"height": 2848,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "slept",
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"support_section": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "harder",
+									"type": "Text"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "hall",
+									"type": "Text"
+								}
+							],
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
+										"width": 4380,
+										"height": 2895
+									},
+									"url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
+									"width": 4380,
+									"height": 2895,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "successful",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"cta_button",
+								{
+									"__TYPE__": "LinkContent",
+									"key": "b4d268c7-e41f-4f3b-9c48-583e05647bf3",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "progress"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

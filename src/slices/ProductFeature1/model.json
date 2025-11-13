@@ -1,0 +1,224 @@
+{
+  "id": "product_feature1",
+  "type": "SharedSlice",
+  "name": "ProductFeature1",
+  "description": "ProductFeature1",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "productfeature2": {
+          "type": "Group",
+          "config": {
+            "label": "ProductFeature2",
+            "repeat": true,
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "name": {
+                "type": "Text",
+                "config": {
+                  "label": "name",
+                  "placeholder": ""
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "description",
+                  "placeholder": ""
+                }
+              },
+              "button": {
+                "type": "Link",
+                "config": {
+                  "label": "Button",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        },
+        "productfeatureback2": {
+          "type": "Group",
+          "config": {
+            "label": "ProductFeatureback2",
+            "repeat": true,
+            "fields": {
+              "backgroundimage": {
+                "type": "Image",
+                "config": {
+                  "label": "Backgroundimage",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "eyebrow": {
+                "type": "Text",
+                "config": {
+                  "label": "Eyebrow",
+                  "placeholder": ""
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "heading2"
+                }
+              },
+              "cta_button": {
+                "type": "Link",
+                "config": {
+                  "label": "CTA Button",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "Description",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "highlighted_grid_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Highlighted Grid Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "highlighted_grid_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Highlighted Grid Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,hyperlink,strong,em"
+          }
+        },
+        "highlighted_grid_feature": {
+          "type": "Group",
+          "config": {
+            "label": "Highlighted Grid Feature",
+            "repeat": true,
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "highlighted_grid_support_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Highlighted Grid Support Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,hyperlink,strong,em"
+          }
+        },
+        "highlighted_grid_cta_button": {
+          "type": "Link",
+          "config": {
+            "label": "Highlighted Grid Cta button",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        },
+        "banner_image": {
+          "type": "Image",
+          "config": {
+            "label": "Banner Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "support_section": {
+          "type": "Group",
+          "config": {
+            "label": "Support Section",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": ""
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "Description",
+                  "placeholder": ""
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "cta_button": {
+                "type": "Link",
+                "config": {
+                  "label": "CTA Button",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

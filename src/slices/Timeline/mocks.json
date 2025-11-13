@@ -1,0 +1,67 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "yearly_horizontal",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Bright"
+						}
+					}
+				]
+			},
+			"timeline_items": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"year",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "running",
+									"type": "Text"
+								}
+							],
+							[
+								"is_active",
+								{
+									"__TYPE__": "BooleanContent",
+									"value": true
+								}
+							]
+						]
+					}
+				]
+			},
+			"show_navigation": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			},
+			"details": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "team",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

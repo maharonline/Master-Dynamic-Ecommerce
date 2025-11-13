@@ -1,0 +1,139 @@
+{
+  "type": "SharedSlice",
+  "id": "newsletter_with_links_columns",
+  "name": "Footer",
+  "variations": [
+    {
+      "id": "newsletter_signup_with_grouped_links",
+      "name": "Footer",
+      "description": "This variation features a newsletter signup form with checkbox, followed by link columns (multi-group), social media links, and footer legal/privacy links.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "headline": {
+          "type": "StructuredText",
+          "config": {
+            "multi": "heading2",
+            "label": "Headline"
+          }
+        },
+        "email_placeholder": {
+          "type": "Text",
+          "config": {
+            "label": "Email Placeholder"
+          }
+        },
+        "show_consent_checkbox": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show Consent Checkbox"
+          }
+        },
+        "consent_text": {
+          "type": "Text",
+          "config": {
+            "label": "Consent Text"
+          }
+        },
+        "submit_button_text": {
+          "type": "Text",
+          "config": {
+            "label": "Submit Button Text"
+          }
+        },
+        "link_columns": {
+          "type": "Group",
+          "config": {
+            "label": "Link Columns",
+            "fields": {
+              "column_title": {
+                "type": "Text",
+                "config": {
+                  "label": "Column Title"
+                }
+              },
+              "links": {
+                "type": "Link",
+                "config": {
+                  "label": "Links",
+                  "allowText": true,
+                  "repeat": true,
+                  "select": null
+                }
+              }
+            }
+          }
+        },
+        "social_links": {
+          "type": "Link",
+          "config": {
+            "label": "Social Links",
+            "placeholder": "",
+            "allowText": false,
+            "repeat": true,
+            "variants": [
+              "Instagram",
+              "Facebook",
+              "Youtube",
+              "Spotify",
+              "Twitter"
+            ],
+            "select": null
+          }
+        },
+        "footer_links": {
+          "type": "Group",
+          "config": {
+            "label": "Footer Links",
+            "fields": {
+              "footer_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Footer Link",
+                  "allowText": true,
+                  "repeat": false,
+                  "select": null
+                }
+              }
+            }
+          }
+        },
+        "copyright_text": {
+          "type": "Text",
+          "config": {
+            "label": "Copyright Text"
+          }
+        },
+        "copywrite_tag": {
+          "type": "Text",
+          "config": {
+            "label": "Copywrite tag",
+            "placeholder": ""
+          }
+        },
+        "socialmedialink": {
+          "type": "Group",
+          "config": {
+            "label": "SocialMediaLink",
+            "repeat": true,
+            "fields": {
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

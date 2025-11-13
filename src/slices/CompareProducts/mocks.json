@@ -1,0 +1,85 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"product2": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"main_image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+										"width": 3456,
+										"height": 4320
+									},
+									"url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+									"width": 3456,
+									"height": 4320,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "not",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "heading2",
+											"content": {
+												"text": "Sentence"
+											}
+										}
+									]
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Proident culpa Lorem sunt ipsum labore dolor dolore consectetur. Nisi irure nisi in. Velit consequat reprehenderit ipsum cillum sit in magna id nostrud laboris quis consectetur."
+											}
+										}
+									]
+								}
+							],
+							[
+								"cta_button",
+								{
+									"__TYPE__": "LinkContent",
+									"key": "a054d2d4-6919-4ee3-802a-e879ca9b5f51",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "ride"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

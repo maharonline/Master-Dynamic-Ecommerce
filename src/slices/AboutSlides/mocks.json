@@ -1,0 +1,71 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"slide_image": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"slide_image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f",
+										"width": 6597,
+										"height": 4398
+									},
+									"url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f",
+									"width": 6597,
+									"height": 4398,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "require",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"heading",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "heading2",
+											"content": {
+												"text": "Greatly"
+											}
+										}
+									]
+								}
+							],
+							[
+								"button",
+								{
+									"__TYPE__": "LinkContent",
+									"key": "9ac62479-44e8-40c5-930a-333ed73038ac",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "orange"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

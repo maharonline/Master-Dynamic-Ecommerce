@@ -1,0 +1,44 @@
+{
+  "id": "headings",
+  "type": "SharedSlice",
+  "name": "Headings",
+  "description": "Headings",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "headings": {
+          "type": "Group",
+          "config": {
+            "label": "Headings",
+            "repeat": true,
+            "fields": {
+              "heading": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Heading",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "heading2"
+                }
+              },
+              "paragraph": {
+                "type": "Text",
+                "config": {
+                  "label": "Paragraph",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

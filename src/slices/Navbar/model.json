@@ -1,0 +1,126 @@
+{
+  "type": "SharedSlice",
+  "id": "navbar",
+  "name": "Navbar",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Basic navigation layout with logo, grouped main navigation, utility icons, country selector and a prominent action button.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "main_navigation": {
+          "type": "Group",
+          "config": {
+            "label": "Main Navigation Links",
+            "fields": {
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Label"
+                }
+              },
+              "url": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "allowText": false,
+                  "repeat": false,
+                  "select": null
+                }
+              },
+              "has_dropdown": {
+                "type": "Boolean",
+                "config": {
+                  "label": "Has Dropdown",
+                  "placeholder_false": "false",
+                  "placeholder_true": "true",
+                  "default_value": true
+                }
+              }
+            }
+          }
+        },
+        "utility_icons": {
+          "type": "Group",
+          "config": {
+            "label": "Utility Icons",
+            "fields": {
+              "icon_type": {
+                "type": "Select",
+                "config": {
+                  "label": "Icon Type",
+                  "placeholder": "",
+                  "options": [
+                    "Search",
+                    "User",
+                    "ShoppingBag"
+                  ]
+                }
+              },
+              "action_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Icon Action Link",
+                  "allowText": false,
+                  "repeat": false,
+                  "select": null
+                }
+              }
+            }
+          }
+        },
+        "country_selector": {
+          "type": "Select",
+          "config": {
+            "label": "Country Selector",
+            "options": [
+              "US",
+              "Other"
+            ]
+          }
+        },
+        "highlighted_action": {
+          "type": "Link",
+          "config": {
+            "label": "Highlighted Action (e.g. Support Button)",
+            "allowText": true,
+            "repeat": false,
+            "select": null
+          }
+        },
+        "logo": {
+          "type": "Group",
+          "config": {
+            "label": "Logo",
+            "repeat": true,
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": false,
+                  "allowText": false,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

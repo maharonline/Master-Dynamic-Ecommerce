@@ -1,0 +1,285 @@
+{
+  "type": "SharedSlice",
+  "id": "checkout_form",
+  "name": "CheckoutForm",
+  "variations": [
+    {
+      "id": "standard",
+      "name": "Standard",
+      "description": "Default checkout form variation covering all steps required for customer checkout.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "express_options": {
+          "type": "Group",
+          "config": {
+            "label": "Express checkout options",
+            "fields": {
+              "provider_logo": {
+                "type": "Image",
+                "config": {
+                  "label": "Provider logo"
+                }
+              },
+              "provider_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Provider name"
+                }
+              }
+            }
+          }
+        },
+        "show_more_options": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show more options"
+          }
+        },
+        "contact_title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading2",
+            "label": "Contact title"
+          }
+        },
+        "contact_email": {
+          "type": "Text",
+          "config": {
+            "label": "Email"
+          }
+        },
+        "contact_news_opt_in": {
+          "type": "Boolean",
+          "config": {
+            "label": "Email me with news and offers"
+          }
+        },
+        "delivery_title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading2",
+            "label": "Delivery title"
+          }
+        },
+        "country": {
+          "type": "Select",
+          "config": {
+            "label": "Country/Region",
+            "options": [
+              "United States",
+              "Other"
+            ]
+          }
+        },
+        "first_name": {
+          "type": "Text",
+          "config": {
+            "label": "First name"
+          }
+        },
+        "last_name": {
+          "type": "Text",
+          "config": {
+            "label": "Last name"
+          }
+        },
+        "company": {
+          "type": "Text",
+          "config": {
+            "label": "Company (optional)"
+          }
+        },
+        "address": {
+          "type": "Text",
+          "config": {
+            "label": "Address"
+          }
+        },
+        "apartment_suite": {
+          "type": "Text",
+          "config": {
+            "label": "Apartment, suite, etc. (optional)"
+          }
+        },
+        "city": {
+          "type": "Text",
+          "config": {
+            "label": "City"
+          }
+        },
+        "state": {
+          "type": "Select",
+          "config": {
+            "label": "State",
+            "options": [
+              "Iowa",
+              "Other"
+            ]
+          }
+        },
+        "zip_code": {
+          "type": "Text",
+          "config": {
+            "label": "ZIP code"
+          }
+        },
+        "phone": {
+          "type": "Text",
+          "config": {
+            "label": "Phone"
+          }
+        },
+        "delivery_news_opt_in": {
+          "type": "Boolean",
+          "config": {
+            "label": "Text me with news and offers"
+          }
+        },
+        "shipping_method_title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading2",
+            "label": "Shipping method title"
+          }
+        },
+        "shipping_method_notice": {
+          "type": "StructuredText",
+          "config": {
+            "multi": "paragraph,strong",
+            "label": "Shipping method notice"
+          }
+        },
+        "payment_title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading2",
+            "label": "Payment title"
+          }
+        },
+        "all_transactions_secure_text": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show all transactions are secure"
+          }
+        },
+        "payment_methods": {
+          "type": "Group",
+          "config": {
+            "label": "Payment methods",
+            "fields": {
+              "payment_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Method label"
+                }
+              },
+              "payment_icon": {
+                "type": "Image",
+                "config": {
+                  "label": "Payment icon"
+                }
+              }
+            }
+          }
+        },
+        "card_number": {
+          "type": "Text",
+          "config": {
+            "label": "Card number"
+          }
+        },
+        "expiration_date": {
+          "type": "Text",
+          "config": {
+            "label": "Expiration date (MM / YY)"
+          }
+        },
+        "security_code": {
+          "type": "Text",
+          "config": {
+            "label": "Security code"
+          }
+        },
+        "name_on_card": {
+          "type": "Text",
+          "config": {
+            "label": "Name on card"
+          }
+        },
+        "use_shipping_as_billing": {
+          "type": "Boolean",
+          "config": {
+            "label": "Use shipping address as billing address"
+          }
+        },
+        "save_for_faster_checkout": {
+          "type": "Boolean",
+          "config": {
+            "label": "Save my information for a faster checkout"
+          }
+        },
+        "mobile_phone_number": {
+          "type": "Text",
+          "config": {
+            "label": "Mobile phone number"
+          }
+        },
+        "pay_now_label": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Pay now label"
+          }
+        },
+        "checkout_footer_notice": {
+          "type": "StructuredText",
+          "config": {
+            "multi": "paragraph,hyperlink",
+            "label": "Checkout footer notice"
+          }
+        },
+        "shipping_icon": {
+          "type": "Group",
+          "config": {
+            "label": "Shipping",
+            "repeat": true,
+            "fields": {
+              "shipping_icon": {
+                "type": "Image",
+                "config": {
+                  "label": "Shipping Icon",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "name": {
+                "type": "Text",
+                "config": {
+                  "label": "name",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "shipping_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Shipping Heading",
+            "placeholder": ""
+          }
+        },
+        "shipping_description": {
+          "type": "Text",
+          "config": {
+            "label": "Shipping Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

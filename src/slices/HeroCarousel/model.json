@@ -1,0 +1,59 @@
+{
+  "type": "SharedSlice",
+  "id": "hero_carousel",
+  "name": "HeroCarousel",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Multiple slides with background images, overlaid title, description, and button. Includes navigation dots and autoplay controls.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "slides": {
+          "type": "Group",
+          "config": {
+            "label": "Slides",
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "heading1,strong"
+                }
+              },
+              "button": {
+                "type": "Link",
+                "config": {
+                  "label": "Button",
+                  "allowText": true,
+                  "repeat": false,
+                  "select": null
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "description",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "type": "SharedSlice",
+  "id": "form_request",
+  "name": "FormRequest",
+  "variations": [
+    {
+      "id": "basic_form",
+      "name": "Submit Support",
+      "description": "Default variation for a form layout that includes various input fields and file upload, suitable for support or contact requests.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title"
+          }
+        },
+        "email_label": {
+          "type": "Text",
+          "config": {
+            "label": "Email Label"
+          }
+        },
+        "subject_label": {
+          "type": "Text",
+          "config": {
+            "label": "Subject Label"
+          }
+        },
+        "description_label": {
+          "type": "Text",
+          "config": {
+            "label": "Description Label"
+          }
+        },
+        "request_type_label": {
+          "type": "Text",
+          "config": {
+            "label": "Request Type Label",
+            "placeholder": ""
+          }
+        },
+        "attachments_label": {
+          "type": "Text",
+          "config": {
+            "label": "Attachments Label"
+          }
+        },
+        "description_placeholder": {
+          "type": "StructuredText",
+          "config": {
+            "multi": "paragraph",
+            "label": "Description Placeholder"
+          }
+        },
+        "attachment_placeholder": {
+          "type": "Text",
+          "config": {
+            "label": "Attachment Placeholder"
+          }
+        },
+        "request_type_options": {
+          "type": "Select",
+          "config": {
+            "label": "Request Type Options",
+            "options": [
+              "-",
+              "Support",
+              "Sales",
+              "Feedback",
+              "Other"
+            ]
+          }
+        },
+        "attachments_optional": {
+          "type": "Boolean",
+          "config": {
+            "label": "Attachments Optional"
+          }
+        },
+        "submit_label": {
+          "type": "Text",
+          "config": {
+            "label": "Submit Button Label"
+          }
+        },
+        "short_description": {
+          "type": "Text",
+          "config": {
+            "label": "Short Description",
+            "placeholder": ""
+          }
+        },
+        "request_type_description": {
+          "type": "Text",
+          "config": {
+            "label": "Request Type Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "basic_form",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Fourth"
+						}
+					}
+				]
+			},
+			"email_label": {
+				"__TYPE__": "FieldContent",
+				"value": "bark",
+				"type": "Text"
+			},
+			"subject_label": {
+				"__TYPE__": "FieldContent",
+				"value": "evidence",
+				"type": "Text"
+			},
+			"description_label": {
+				"__TYPE__": "FieldContent",
+				"value": "balance",
+				"type": "Text"
+			},
+			"request_type_label": {
+				"__TYPE__": "FieldContent",
+				"value": "itself",
+				"type": "Text"
+			},
+			"attachments_label": {
+				"__TYPE__": "FieldContent",
+				"value": "sink",
+				"type": "Text"
+			},
+			"description_placeholder": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Eiusmod nisi laborum dolor deserunt elit eu ullamco dolore dolor veniam proident."
+						}
+					}
+				]
+			},
+			"attachment_placeholder": {
+				"__TYPE__": "FieldContent",
+				"value": "coming",
+				"type": "Text"
+			},
+			"request_type_options": {
+				"__TYPE__": "FieldContent",
+				"value": "Feedback",
+				"type": "Select"
+			},
+			"attachments_optional": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			},
+			"submit_label": {
+				"__TYPE__": "FieldContent",
+				"value": "third",
+				"type": "Text"
+			},
+			"short_description": {
+				"__TYPE__": "FieldContent",
+				"value": "planned",
+				"type": "Text"
+			},
+			"request_type_description": {
+				"__TYPE__": "FieldContent",
+				"value": "band",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

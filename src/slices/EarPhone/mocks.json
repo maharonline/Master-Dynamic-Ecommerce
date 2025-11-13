@@ -1,0 +1,95 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"section_title": {
+				"__TYPE__": "FieldContent",
+				"value": "distance",
+				"type": "Text"
+			},
+			"product": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"product_image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88",
+										"width": 3168,
+										"height": 4752
+									},
+									"url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88",
+									"width": 3168,
+									"height": 4752,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "mother",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"product_name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "everywhere",
+									"type": "Text"
+								}
+							],
+							[
+								"short_description",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Elit sint elit ullamco pariatur elit qui incididunt officia sint minim Lorem ipsum magna laborum laborum. Esse eu id adipisicing tempor aliquip ut elit reprehenderit laborum nulla proident ea tempor anim do."
+											}
+										}
+									]
+								}
+							],
+							[
+								"sale_tag",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "atom",
+									"type": "Text"
+								}
+							],
+							[
+								"engraving_available",
+								{
+									"__TYPE__": "BooleanContent",
+									"value": false
+								}
+							],
+							[
+								"price",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "powerful",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

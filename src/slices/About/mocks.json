@@ -1,0 +1,72 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"rows": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"media_image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117",
+										"width": 3810,
+										"height": 5715
+									},
+									"url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117",
+									"width": 3810,
+									"height": 5715,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "cage",
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"heading",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "heading3",
+											"content": {
+												"text": "Division"
+											}
+										}
+									]
+								}
+							],
+							[
+								"body",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Officia sunt magna anim ullamco dolor veniam cupidatat fugiat sunt consequat cillum nisi consequat excepteur ut."
+											}
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

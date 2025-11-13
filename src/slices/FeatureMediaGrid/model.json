@@ -1,0 +1,480 @@
+{
+  "type": "SharedSlice",
+  "id": "feature_media_grid",
+  "name": "FeatureMediaGrid",
+  "variations": [
+    {
+      "id": "alternating_media_text",
+      "name": "Main Page Feature",
+      "description": "Displays alternating sections of image and text in a split grid layout, ideal for feature highlights and benefit explanations with supporting visuals.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "items": {
+          "type": "Group",
+          "config": {
+            "label": "Items",
+            "fields": {
+              "media": {
+                "type": "Image",
+                "config": {
+                  "label": "Media"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "heading3,heading2,heading1"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph,strong,em,hyperlink",
+                  "label": "Description"
+                }
+              },
+              "cta": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link",
+                  "allowText": true,
+                  "repeat": false,
+                  "select": null
+                }
+              }
+            }
+          }
+        },
+        "intuitive_control": {
+          "type": "Group",
+          "config": {
+            "label": "intuitive control",
+            "repeat": true,
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,hyperlink,strong,em"
+                }
+              }
+            }
+          }
+        },
+        "assistance": {
+          "type": "Group",
+          "config": {
+            "label": "Assistance",
+            "repeat": true,
+            "fields": {
+              "heading": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Heading",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "heading2,heading1,heading3"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,heading2,heading1,heading3"
+                }
+              }
+            }
+          }
+        },
+        "images_section6": {
+          "type": "Group",
+          "config": {
+            "label": "Images Section6",
+            "repeat": true,
+            "fields": {
+              "image1": {
+                "type": "Image",
+                "config": {
+                  "label": "image1",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "image2": {
+                "type": "Image",
+                "config": {
+                  "label": "image2",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "image3": {
+                "type": "Image",
+                "config": {
+                  "label": "image3",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "image4": {
+                "type": "Image",
+                "config": {
+                  "label": "image4",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "image5": {
+                "type": "Image",
+                "config": {
+                  "label": "image5",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              }
+            }
+          }
+        },
+        "expert_says": {
+          "type": "Group",
+          "config": {
+            "label": "Expert Says",
+            "repeat": true,
+            "fields": {
+              "line1": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Line1",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "heading1,heading2,paragraph,heading3"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,heading1,heading2,heading3"
+                }
+              },
+              "line2": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Line2",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,heading1,heading2,heading3"
+                }
+              }
+            }
+          }
+        },
+        "compare_section": {
+          "type": "Group",
+          "config": {
+            "label": "Compare Section",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,heading1,heading2,heading3"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        },
+        "techspec_section": {
+          "type": "Group",
+          "config": {
+            "label": "Techspec section",
+            "repeat": true,
+            "fields": {
+              "option1": {
+                "type": "Text",
+                "config": {
+                  "label": "Option1",
+                  "placeholder": ""
+                }
+              },
+              "option2": {
+                "type": "Text",
+                "config": {
+                  "label": "Option2",
+                  "placeholder": ""
+                }
+              },
+              "option3": {
+                "type": "Text",
+                "config": {
+                  "label": "Option3",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "techspec_section_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Techspec section heading",
+            "placeholder": ""
+          }
+        },
+        "in_the_box": {
+          "type": "Group",
+          "config": {
+            "label": "in the box",
+            "repeat": true,
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "imageheading": {
+                "type": "Text",
+                "config": {
+                  "label": "imageheading",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "in_the_box_heading": {
+          "type": "Text",
+          "config": {
+            "label": "in the box heading",
+            "placeholder": ""
+          }
+        },
+        "listening_experience": {
+          "type": "Group",
+          "config": {
+            "label": "Listening Experience",
+            "repeat": true,
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "image_heading": {
+                "type": "Text",
+                "config": {
+                  "label": "image Heading",
+                  "placeholder": ""
+                }
+              },
+              "price": {
+                "type": "Text",
+                "config": {
+                  "label": "Price",
+                  "placeholder": ""
+                }
+              },
+              "is_sold_out": {
+                "type": "Boolean",
+                "config": {
+                  "label": "is sold out",
+                  "placeholder_false": "false",
+                  "placeholder_true": "true",
+                  "default_value": false
+                }
+              }
+            }
+          }
+        },
+        "listen_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Listen Heading",
+            "placeholder": ""
+          }
+        },
+        "listen_description": {
+          "type": "Text",
+          "config": {
+            "label": "Listen Description",
+            "placeholder": ""
+          }
+        },
+        "product_support": {
+          "type": "Group",
+          "config": {
+            "label": "Product Support",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": ""
+                }
+              },
+              "icon_type": {
+                "type": "Text",
+                "config": {
+                  "label": "Icon Type",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "product_support_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Product  Support Heading",
+            "placeholder": ""
+          }
+        },
+        "support_section": {
+          "type": "Group",
+          "config": {
+            "label": "Support Section",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": ""
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "Description",
+                  "placeholder": ""
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "cta_button": {
+                "type": "Link",
+                "config": {
+                  "label": "CTA Button",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        },
+        "recently_viewed": {
+          "type": "Group",
+          "config": {
+            "label": "Recently Viewed",
+            "repeat": true,
+            "fields": {
+              "headphone_image": {
+                "type": "Image",
+                "config": {
+                  "label": "HeadPhone Image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "color_image": {
+                "type": "Image",
+                "config": {
+                  "label": "Color Image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "image_description": {
+                "type": "Text",
+                "config": {
+                  "label": "Image Description",
+                  "placeholder": ""
+                }
+              },
+              "is_engraving_available": {
+                "type": "Boolean",
+                "config": {
+                  "label": "Is Engraving Available",
+                  "placeholder_false": "false",
+                  "placeholder_true": "true",
+                  "default_value": false
+                }
+              },
+              "price": {
+                "type": "Text",
+                "config": {
+                  "label": "Price",
+                  "placeholder": ""
+                }
+              },
+              "image_heading": {
+                "type": "Text",
+                "config": {
+                  "label": "image Heading",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "recently_viewed_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Recently Viewed Heading",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

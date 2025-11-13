@@ -1,0 +1,89 @@
+{
+  "type": "SharedSlice",
+  "id": "product_featured_list",
+  "name": "ProductFeaturedList",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Standard layout for showcasing featured products in a horizontal row.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Heading"
+          }
+        },
+        "products": {
+          "type": "Group",
+          "config": {
+            "label": "Products",
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Product Image"
+                }
+              },
+              "name": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading3,strong",
+                  "label": "Name"
+                }
+              },
+              "price": {
+                "type": "Text",
+                "config": {
+                  "label": "Price"
+                }
+              },
+              "sale_tag": {
+                "type": "Text",
+                "config": {
+                  "label": "Sale Tag",
+                  "placeholder": ""
+                }
+              },
+              "badge": {
+                "type": "Text",
+                "config": {
+                  "label": "Badge"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph,strong,em,hyperlink",
+                  "label": "Description"
+                }
+              },
+              "color_options": {
+                "type": "Image",
+                "config": {
+                  "label": "Color Options",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "engraving_available": {
+                "type": "Boolean",
+                "config": {
+                  "label": "Engraving Available",
+                  "placeholder_false": "false",
+                  "placeholder_true": "true",
+                  "default_value": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"icon": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+					"width": 3560,
+					"height": 5340
+				},
+				"url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+				"width": 3560,
+				"height": 5340,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "without"
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "National"
+						}
+					}
+				]
+			},
+			"primary_link": {
+				"__TYPE__": "LinkContent",
+				"key": "0be53d64-0d45-40fa-9df2-5314be023290",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com",
+					"text": "pictured"
+				}
+			}
+		},
+		"items": []
+	}
+]

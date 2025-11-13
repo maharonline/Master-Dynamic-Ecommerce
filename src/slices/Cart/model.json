@@ -1,0 +1,40 @@
+{
+  "type": "SharedSlice",
+  "id": "empty_state",
+  "name": "Cart",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Standard empty state with a message, icon, and a single button.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "icon": {
+          "type": "Image",
+          "config": {
+            "label": "Icon"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading2",
+            "label": "Title"
+          }
+        },
+        "primary_link": {
+          "type": "Link",
+          "config": {
+            "label": "Primary Button",
+            "allowText": true,
+            "repeat": false,
+            "select": null
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

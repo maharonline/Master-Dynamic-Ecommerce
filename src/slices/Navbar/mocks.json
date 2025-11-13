@@ -1,0 +1,135 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"main_navigation": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "needed",
+									"type": "Text"
+								}
+							],
+							[
+								"url",
+								{
+									"key": "88cc1644-9136-4a2e-b132-05b37ac458c3",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://slicemachine.dev"
+									}
+								}
+							],
+							[
+								"has_dropdown",
+								{
+									"__TYPE__": "BooleanContent",
+									"value": false
+								}
+							]
+						]
+					}
+				]
+			},
+			"utility_icons": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icon_type",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "User",
+									"type": "Select"
+								}
+							],
+							[
+								"action_link",
+								{
+									"key": "6f155428-ce24-4675-b7e0-12e59a6d5155",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://twitter.com"
+									}
+								}
+							]
+						]
+					}
+				]
+			},
+			"country_selector": {
+				"__TYPE__": "FieldContent",
+				"value": "Other",
+				"type": "Select"
+			},
+			"highlighted_action": {
+				"key": "464ae2b1-8caf-4182-9e3a-d6fbf9fb3c3d",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io",
+					"text": "widely"
+				}
+			},
+			"logo": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+										"width": 5848,
+										"height": 3899
+									},
+									"url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+									"width": 5848,
+									"height": 3899,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "several",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"link",
+								{
+									"key": "6ecca967-3bf2-468a-9772-22de4e9e8362",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://slicemachine.dev"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

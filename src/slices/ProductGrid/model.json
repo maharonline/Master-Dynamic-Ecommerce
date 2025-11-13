@@ -1,0 +1,110 @@
+{
+  "type": "SharedSlice",
+  "id": "product_grid",
+  "name": "ProductGrid",
+  "variations": [
+    {
+      "id": "default_grid",
+      "name": "Default Grid",
+      "description": "Displays products in a uniform grid, suitable for product listing pages or collections.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "section_title": {
+          "type": "Text",
+          "config": {
+            "label": "Section Title"
+          }
+        },
+        "products": {
+          "type": "Group",
+          "config": {
+            "label": "Products",
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Product Image"
+                }
+              },
+              "name": {
+                "type": "Text",
+                "config": {
+                  "label": "Product Name"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Short Description"
+                }
+              },
+              "price": {
+                "type": "Number",
+                "config": {
+                  "label": "Price"
+                }
+              },
+              "is_exclusive": {
+                "type": "Boolean",
+                "config": {
+                  "label": "Exclusive"
+                }
+              },
+              "add_to_cart_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Add to Cart",
+                  "allowText": true,
+                  "repeat": false,
+                  "select": null
+                }
+              },
+              "sale_tag": {
+                "type": "Text",
+                "config": {
+                  "label": "Sale Tag",
+                  "placeholder": ""
+                }
+              },
+              "color_options": {
+                "type": "Image",
+                "config": {
+                  "label": "Color Options",
+                  "constraint": {},
+                  "thumbnails": [
+                    {
+                      "name": "main2",
+                      "width": 75,
+                      "height": 75
+                    }
+                  ]
+                }
+              },
+              "engraving_available": {
+                "type": "Boolean",
+                "config": {
+                  "label": "Engraving Available",
+                  "placeholder_false": "false",
+                  "placeholder_true": "true",
+                  "default_value": false
+                }
+              }
+            }
+          }
+        },
+        "icon": {
+          "type": "Image",
+          "config": {
+            "label": "icon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

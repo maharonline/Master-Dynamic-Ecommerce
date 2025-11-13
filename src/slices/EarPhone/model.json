@@ -1,0 +1,82 @@
+{
+  "id": "ear_phone",
+  "type": "SharedSlice",
+  "name": "EarPhone",
+  "description": "EarPhone",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "section_title": {
+          "type": "Text",
+          "config": {
+            "label": "Section Title",
+            "placeholder": ""
+          }
+        },
+        "product": {
+          "type": "Group",
+          "config": {
+            "label": "Product",
+            "repeat": true,
+            "fields": {
+              "product_image": {
+                "type": "Image",
+                "config": {
+                  "label": "Product Image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "product_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Product Name",
+                  "placeholder": ""
+                }
+              },
+              "short_description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Short Description",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph"
+                }
+              },
+              "sale_tag": {
+                "type": "Text",
+                "config": {
+                  "label": "Sale Tag",
+                  "placeholder": ""
+                }
+              },
+              "engraving_available": {
+                "type": "Boolean",
+                "config": {
+                  "label": "Engraving Available",
+                  "placeholder_false": "false",
+                  "placeholder_true": "true",
+                  "default_value": false
+                }
+              },
+              "price": {
+                "type": "Text",
+                "config": {
+                  "label": "Price",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

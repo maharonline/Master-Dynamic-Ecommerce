@@ -1,0 +1,159 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Tonight"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Amet mollit velit cillum laboris eiusmod aute incididunt amet eu tempor excepteur labore ea. Laborum magna consectetur qui ullamco adipisicing mollit exercitation velit pariatur sunt excepteur occaecat cillum nostrud. Est occaecat voluptate eu id elit ea."
+						}
+					}
+				]
+			},
+			"features": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
+										"width": 4380,
+										"height": 2895
+									},
+									"url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
+									"width": 4380,
+									"height": 2895,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "save",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "sun",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"support_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Adipisicing Lorem est cillum consectetur pariatur tempor cillum ipsum eiusmod id proident pariatur cupidatat Lorem."
+						}
+					}
+				]
+			},
+			"cta_button": {
+				"key": "056cab62-13d0-4223-a29c-b0ecd15340dd",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "nice"
+				}
+			},
+			"support_section": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "consist",
+									"type": "Text"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "definition",
+									"type": "Text"
+								}
+							],
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+										"width": 4160,
+										"height": 3120
+									},
+									"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+									"width": 4160,
+									"height": 3120,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "equally",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"cta_button",
+								{
+									"__TYPE__": "LinkContent",
+									"key": "12e0e85e-6bd1-45a6-91d7-da149d99a399",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "happy"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

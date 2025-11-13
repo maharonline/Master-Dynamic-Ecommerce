@@ -1,0 +1,184 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default_grid",
+		"primary": {
+			"section_title": {
+				"__TYPE__": "FieldContent",
+				"value": "upon",
+				"type": "Text"
+			},
+			"products": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117",
+										"width": 3810,
+										"height": 5715
+									},
+									"url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117",
+									"width": 3810,
+									"height": 5715,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "paper",
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "tell",
+									"type": "Text"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Sunt Lorem magna eiusmod qui officia elit nostrud ea deserunt exercitation. Et commodo sunt ex dolor ad adipisicing. Et reprehenderit velit veniam aliqua enim do dolor cillum qui labore velit eiusmod."
+											}
+										}
+									]
+								}
+							],
+							[
+								"price",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "53",
+									"type": "Number"
+								}
+							],
+							[
+								"is_exclusive",
+								{
+									"__TYPE__": "BooleanContent",
+									"value": false
+								}
+							],
+							[
+								"add_to_cart_link",
+								{
+									"key": "7f65ea8d-263e-413e-a6be-ea515e9970f8",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://slicemachine.dev",
+										"text": "art"
+									}
+								}
+							],
+							[
+								"sale_tag",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "small",
+									"type": "Text"
+								}
+							],
+							[
+								"color_options",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+										"width": 5243,
+										"height": 3495
+									},
+									"url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+									"width": 5243,
+									"height": 3495,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "leather",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {
+										"main2": {
+											"origin": {
+												"id": "main2",
+												"url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
+												"width": 8640,
+												"height": 8640
+											},
+											"url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?rect=0%2C0%2C8640%2C8640&w=75&h=75",
+											"width": 75,
+											"height": 75,
+											"edit": {
+												"zoom": 1,
+												"crop": {
+													"x": 0,
+													"y": 0
+												},
+												"background": "transparent"
+											},
+											"alt": "tightly",
+											"credits": null
+										}
+									}
+								}
+							],
+							[
+								"engraving_available",
+								{
+									"__TYPE__": "BooleanContent",
+									"value": false
+								}
+							]
+						]
+					}
+				]
+			},
+			"icon": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+					"width": 3882,
+					"height": 2584
+				},
+				"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+				"width": 3882,
+				"height": 2584,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "key",
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			}
+		},
+		"items": []
+	}
+]

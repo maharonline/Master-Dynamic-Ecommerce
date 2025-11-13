@@ -1,0 +1,287 @@
+{
+  "type": "SharedSlice",
+  "id": "product_detail",
+  "name": "ProductDetail",
+  "variations": [
+    {
+      "id": "with_features_options_badges",
+      "name": "With Features, Options & Badges",
+      "description": "Displays product gallery, main info (name, description, price), color/variant selectors, collaboration or special editions, personalized add-on (engraving), call-to-action (add to cart), service warranty, highlight features, and badges/awards.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "product_title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Product Title"
+          }
+        },
+        "product_summary": {
+          "type": "StructuredText",
+          "config": {
+            "multi": "paragraph,strong,em",
+            "label": "Product Summary"
+          }
+        },
+        "product_price": {
+          "type": "Number",
+          "config": {
+            "label": "Product Price"
+          }
+        },
+        "currency_symbol": {
+          "type": "Text",
+          "config": {
+            "label": "Currency Symbol"
+          }
+        },
+        "gallery_main_image": {
+          "type": "Image",
+          "config": {
+            "label": "Gallery Main Image"
+          }
+        },
+        "gallery_images": {
+          "type": "Group",
+          "config": {
+            "label": "Gallery Images",
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image"
+                }
+              }
+            }
+          }
+        },
+        "badges": {
+          "type": "Group",
+          "config": {
+            "label": "Badges & Awards",
+            "fields": {
+              "badge_icon": {
+                "type": "Image",
+                "config": {
+                  "label": "Badge Icon"
+                }
+              },
+              "badge_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Badge Label"
+                }
+              }
+            }
+          }
+        },
+        "color_variants": {
+          "type": "Group",
+          "config": {
+            "label": "Color Variants",
+            "fields": {
+              "color_value": {
+                "type": "Color",
+                "config": {
+                  "label": "Variant Color"
+                }
+              },
+              "color_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Color Label"
+                }
+              }
+            }
+          }
+        },
+        "collab_variants": {
+          "type": "Group",
+          "config": {
+            "label": "Collaboration Editions",
+            "fields": {
+              "collab_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Collaboration Name"
+                }
+              }
+            }
+          }
+        },
+        "has_personalization": {
+          "type": "Boolean",
+          "config": {
+            "label": "Enable Personalization (Engraving)"
+          }
+        },
+        "personalization_label": {
+          "type": "Text",
+          "config": {
+            "label": "Personalization Label"
+          }
+        },
+        "personalization_price": {
+          "type": "Number",
+          "config": {
+            "label": "Personalization Price"
+          }
+        },
+        "add_to_cart_link": {
+          "type": "Link",
+          "config": {
+            "label": "Add to Cart Button",
+            "allowText": true,
+            "repeat": false,
+            "variants": [
+              "primary"
+            ],
+            "select": null
+          }
+        },
+        "warranty_info": {
+          "type": "StructuredText",
+          "config": {
+            "multi": "paragraph,strong,hyperlink",
+            "label": "Warranty/Protection Info"
+          }
+        },
+        "feature_highlights": {
+          "type": "Group",
+          "config": {
+            "label": "Feature Highlights",
+            "fields": {
+              "feature_icon": {
+                "type": "Image",
+                "config": {
+                  "label": "Feature Icon"
+                }
+              },
+              "feature_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Feature Label"
+                }
+              }
+            }
+          }
+        },
+        "purchase_help_link": {
+          "type": "Link",
+          "config": {
+            "label": "Purchase Help Link",
+            "allowText": true,
+            "repeat": false,
+            "variants": [
+              "secondary"
+            ],
+            "select": null
+          }
+        },
+        "button": {
+          "type": "Group",
+          "config": {
+            "label": "Button",
+            "repeat": true,
+            "fields": {
+              "feature": {
+                "type": "Link",
+                "config": {
+                  "label": "Feature",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              },
+              "techspec": {
+                "type": "Link",
+                "config": {
+                  "label": "Techspec",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              },
+              "support": {
+                "type": "Link",
+                "config": {
+                  "label": "Support",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "Image",
+          "config": {
+            "label": "Feature",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "row": {
+          "type": "Group",
+          "config": {
+            "label": "Row",
+            "repeat": true,
+            "fields": {
+              "media_image": {
+                "type": "Image",
+                "config": {
+                  "label": "Media Image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "heading": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Heading",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "heading2"
+                }
+              },
+              "body": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Body",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "hyperlink,paragraph,strong,em"
+                }
+              }
+            }
+          }
+        },
+        "banner_image": {
+          "type": "Image",
+          "config": {
+            "label": "Banner Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "play_time_description": {
+          "type": "Text",
+          "config": {
+            "label": "Play Time Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

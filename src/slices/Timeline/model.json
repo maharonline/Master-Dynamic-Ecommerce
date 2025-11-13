@@ -1,0 +1,67 @@
+{
+  "type": "SharedSlice",
+  "id": "timeline",
+  "name": "Timeline",
+  "variations": [
+    {
+      "id": "yearly_horizontal",
+      "name": "Yearly Horizontal Timeline",
+      "description": "A horizontal timeline displaying one event per year with navigation arrows for scrolling. Each point on the timeline can display multiple details or milestones.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading2",
+            "label": "Title"
+          }
+        },
+        "timeline_items": {
+          "type": "Group",
+          "config": {
+            "label": "Timeline Items",
+            "fields": {
+              "year": {
+                "type": "Text",
+                "config": {
+                  "label": "Year"
+                }
+              },
+              "is_active": {
+                "type": "Boolean",
+                "config": {
+                  "label": "Is Active"
+                }
+              }
+            }
+          }
+        },
+        "show_navigation": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show Navigation"
+          }
+        },
+        "details": {
+          "type": "Group",
+          "config": {
+            "label": "Details",
+            "repeat": true,
+            "fields": {
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "Description",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
