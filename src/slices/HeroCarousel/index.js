@@ -90,7 +90,7 @@ export default function HeroCarousel({ slice }) {
           onClick={() => setIsPaused(!isPaused)}
           className="border border-white w-10 h-10 flex items-center justify-center text-white rounded-full hover:bg-white hover:text-black transition text-lg"
         >
-          {isPaused ? <PlayIcon/> :<Pause /> <PlayIcon/>}
+          {isPaused ? <PlayIcon/> :<Pause /> }
         </button>
       </div>
     </section>
