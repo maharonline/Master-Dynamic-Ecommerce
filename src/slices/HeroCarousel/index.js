@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
 import { PrismicRichText } from "@prismicio/react";
-import { Play, Pause } from 'lucide-react';
+import { PlayIcon, Pause } from 'lucide-react';
 
 
 export default function HeroCarousel({ slice }) {
