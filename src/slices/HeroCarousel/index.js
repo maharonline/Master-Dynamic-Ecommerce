@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
 import { PrismicRichText } from "@prismicio/react";
+import { Pause, PlayIcon } from "lucide-react";
+import { Play } from "next/font/google";
 
 export default function HeroCarousel({ slice }) {
   const slides = slice?.primary?.slides || [];
@@ -88,7 +90,8 @@ export default function HeroCarousel({ slice }) {
           onClick={() => setIsPaused(!isPaused)}
           className="border border-white w-10 h-10 flex items-center justify-center text-white rounded-full hover:bg-white hover:text-black transition text-lg"
         >
-          {isPaused ? "▶" : "⏸"}
+          {isPaused ? <Pause /> : <PlayIcon/>}
+          
         </button>
       </div>
     </section>
