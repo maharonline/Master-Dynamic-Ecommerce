@@ -90,7 +90,7 @@ const Navbar = ({ slice }) => {
           {/* Highlighted Action */}
           
             <PrismicNextLink
-              field={highlightedAction.link}
+              field={slice.primary.highlighted_action}
               className="hidden md:inline-block bg-black text-white px-4 py-2 rounded-sm text-sm font-medium hover:bg-gray-800"
             >
               {highlightedAction.text}
