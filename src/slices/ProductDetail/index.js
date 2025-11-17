@@ -1,4 +1,4 @@
-
+"use client"
 
 import { PrismicRichText, PrismicText } from "@prismicio/react";
 import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
