@@ -52,6 +52,7 @@ const ProductDetail = ({ slice }) => {
   }
 };
 
+
   return (
     <section
       data-slice-type={slice.slice_type}
