@@ -31,10 +31,26 @@ const ProductDetail = ({ slice }) => {
     setSelectedImage(images[(currentIndex - 1 + images.length) % images.length]);
   };
 
-  const handleCart=()=>{
-    alert("Item is Added in Cart")
-    
+  const handleCart = () => {
+  const product = {
+    id: slice.id, // prismic slice unique id
+    title: slice.primary.product_title[0]?.text,
+    price: slice.primary.product_price,
+    image: selectedImage?.url,
+  };
+
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  const already = cart.find((item) => item.id === product.id);
+
+  if (!already) {
+    cart.push(product);
+    localStorage.setItem("cart", JSON.stringify(cart));
+    alert("Added to cart!");
+  } else {
+    alert("Already in cart!");
   }
+};
 
   return (
     <section
