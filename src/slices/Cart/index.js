@@ -57,9 +57,9 @@ const EmptyState = ({ slice }) => {
 
         {/* Checkout Button */}
         <div className="text-center">
-          <button className="bg-gray-900 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-gray-800 transition">
-            Proceed to Checkout
-          </button>
+          <div className="bg-gray-900 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-gray-800 transition">
+            <PrismicNextLink field={slice.primary.checkoutpage} />
+          </div>
         </div>
       </section>
     );
