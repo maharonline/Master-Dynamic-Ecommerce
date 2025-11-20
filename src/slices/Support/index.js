@@ -52,14 +52,7 @@ const SupportGrid = ({ slice }) => {
               {item.label}
             </p>
 
-            {item.link?.url && (
-              <PrismicNextLink
-                field={item.link}
-                className="text-blue-600 text-sm mt-1 hover:underline"
-              >
-                Learn more
-              </PrismicNextLink>
-            )}
+           
           </div>
         ))}
       </div>
