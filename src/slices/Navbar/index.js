@@ -29,14 +29,14 @@ const Navbar = ({ slice }) => {
   return (
     <header className="w-full border-b border-gray-200 bg-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
-        
+
         {/* LEFT — LOGO */}
         <div className="flex items-center gap-4 flex-wrap justify-center">
           {logo.map((item, index) => (
             <PrismicNextLink key={index} field={item.link}>
               <PrismicNextImage
                 field={item.image}
-                className="w-28 md:w-40 h-10 object-contain cursor-pointer hover:opacity-80 transition"
+                className="w-28 md:w-[220px] h-[10px] object-cover cursor-pointer hover:opacity-80 transition"
               />
             </PrismicNextLink>
           ))}
@@ -90,13 +90,12 @@ const Navbar = ({ slice }) => {
           )}
 
           {/* Highlighted Action */}
-          {highlightedAction?.link && (
+          {slice.primary.highlighted_action && (
             <PrismicNextLink
-              field={highlightedAction.link}
+              field={slice.primary.highlighted_action}
               className="hidden md:inline-block bg-black text-white px-4 py-2 rounded-sm text-sm font-medium hover:bg-gray-800"
-            >
-              {highlightedAction.text}
-            </PrismicNextLink>
+            />
+
           )}
 
           {/* Mobile Toggle */}
