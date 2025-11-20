@@ -78,14 +78,19 @@ const ProductFeaturedList = ({ slice }) => {
               )}
 
 
-
               {/* Optional color options image */}
               {item.color_options && (
-                <div className="mt-2 flex">
+                <div className="flex items-center justify-start gap-2 mt-auto">
+                  <span>
+
                   <PrismicNextImage
                     field={item.color_options}
                     className="w-5 h-5 object-cover rounded-full"
-                  />
+                    />
+                    </span>
+                     <span className="bg-black rounded-full w-5 h-5 border border-gray-400"></span>
+              <span className="bg-blue-500 rounded-full w-5 h-5 border border-gray-400"></span>
+              <span className="bg-gray-200 rounded-full w-5 h-5 border border-gray-400"></span>
                   <span className="text-xs bg-gray-900  text-white rounded px-2 py-1 w-fit">
                     Engraving
                   </span>
