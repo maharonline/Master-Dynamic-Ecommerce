@@ -3,7 +3,7 @@
 import { PrismicNextImage } from "@prismicio/next";
 import { PrismicRichText } from "@prismicio/react";
 import { PrismicNextLink } from "@prismicio/next";
-import { ChevronDown, Download, ExternalLink, PlayCircle } from "lucide-react"
+import { ChevronDown, ChevronLeft, ChevronRight, Download, ExternalLink, PlayCircle } from "lucide-react"
 import { useState } from "react";
 
 /**
@@ -30,7 +30,7 @@ const FeatureMediaGrid = ({ slice }) => {
       id="feature"
     >
       {/*best in Talk Zigzag */}
-      <div className="max-w-7xl mx-auto px-6 md:px-10 py-16">
+      <div className="max-w-full mx-auto px-6 md:px-10 py-16">
         {slice?.primary?.items?.map((item, index) => (
           <div
             key={index}
@@ -54,23 +54,25 @@ const FeatureMediaGrid = ({ slice }) => {
                 field={item.description}
                 components={{
                   paragraph: ({ children }) => (
-                    <p className="text-gray-600 text-[15px] md:text-[16px] font-medium leading-relaxed">
+                    <p className="text-gray-600 max-w-full md:max-w-[486px] text-[15px] md:text-[14px] font-medium leading-[22px]">
                       {children}
                     </p>
                   ),
                 }}
               />
-
-              {item.cta?.url && (
+              {/* 
+              {item.cta && (
                 <div className="mt-4">
                   <PrismicNextLink
                     field={item.cta}
-                    className="inline-block bg-gray-900 text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition"
-                  >
-                    Learn More
-                  </PrismicNextLink>
+                    className={`inline-block ${item.cta ? 'bg-gray-900 text-white' : 'bg-red-200 '
+                    } px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition`}
+
+                  />
+                    
                 </div>
-              )}
+              )} */}
+
             </div>
 
             {/* Image Block */}
@@ -90,7 +92,7 @@ const FeatureMediaGrid = ({ slice }) => {
         {slice.primary.intuitive_control?.map((item, index) => (
           <div
             key={index}
-            className="relative w-full h-[80vh] flex items-center justify-start overflow-hidden"
+            className="relative w-full h-[100vh] flex items-center justify-start overflow-hidden"
           >
             {/* Background Image */}
             {item?.image && (
@@ -98,10 +100,11 @@ const FeatureMediaGrid = ({ slice }) => {
                 field={item.image}
                 className="absolute inset-0 w-full h-full object-cover"
               />
+
             )}
 
             {/* Optional overlay */}
-            <div className="absolute inset-0 bg-black/20"></div>
+            <div className="absolute  bg-black/20"></div>
 
             {/* Text Overlay (safe check for description) */}
             {item?.description && Array.isArray(item.description) && item.description.length > 0 && (
@@ -222,7 +225,7 @@ const FeatureMediaGrid = ({ slice }) => {
 
       {/*====== Expert Says ====== */}
 
-      <div className="mt-10 flex flex-col justify-center items-center text-gray-700 text-center px-4 md:px-8 lg:px-16">
+      <div className="mt-10 flex flex-col justify-center items-center text-gray-700 text-center px-4 md:px-8 lg:px-16 ">
         {slice.primary.expert_says?.map((item, index) => (
           <div key={index} className="my-6 w-full max-w-[90vw] md:max-w-[730px]">
             {/* Line 1 */}
@@ -238,6 +241,7 @@ const FeatureMediaGrid = ({ slice }) => {
                     ),
                   }}
                 />
+
               </div>
             )}
 
@@ -274,11 +278,20 @@ const FeatureMediaGrid = ({ slice }) => {
             )}
           </div>
         ))}
+        <div className="flex items-center justify-center gap-4 mt-6">
+    <button className="p-3 rounded-full   hover:bg-gray-100 transition">
+      <ChevronLeft size={22} />
+    </button>
+
+    <button className="p-3 rounded-full   hover:bg-gray-100 transition">
+      <ChevronRight size={22} />
+    </button>
+  </div>
       </div>
 
 
       {/*===== Compare Section ===== */}
-      <div className="mt-10 w-full  h-[333px] bg-[#F1F1F1] flex flex-col justify-center items-center text-gray-700 text-center px-4">
+      <div className="mt-30 w-full  h-[333px] bg-[#F1F1F1] flex flex-col justify-center items-center text-gray-700 text-center px-4">
         {slice.primary.compare_section?.map((item, index) => (
           <div
             key={index}
@@ -304,7 +317,7 @@ const FeatureMediaGrid = ({ slice }) => {
             <div>
               <PrismicNextLink
                 field={item.link}
-                className="inline-flex items-center justify-center w-[218px] h-[52px] text-[17px] bg-gray-700 text-white font-bold rounded-md hover:bg-gray-800 transition"
+                className="inline-flex items-center justify-center w-[218px] h-[52px] text-[17px] bg-[#4A4A4A] text-white font-bold  hover:bg-gray-800 transition"
               />
             </div>
           </div>
