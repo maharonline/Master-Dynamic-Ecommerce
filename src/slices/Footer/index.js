@@ -1,5 +1,5 @@
 "use client";
-import { PrismicNextLink } from "@prismicio/next";
+import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
 import { PrismicRichText } from "@prismicio/react";
 import { Instagram, Facebook, Twitter, Youtube, Sprout } from "lucide-react";
 
@@ -105,7 +105,7 @@ const NewsletterWithLinksColumns = ({ slice }) => {
                   <Youtube className="w-5 h-5 hover:text-red-700 transition " />
                 )}
                 {platform.toLowerCase() === "spotify" && (
-                  <Sprout className="w-5 h-5  hover:text-green-700 transition" />
+                  <PrismicNextImage field={slice.primary.spotifyicon} className='w-5 h-5'/>
                 )}
                 {platform.toLowerCase() === "twitter" && (
                   <Twitter className="w-5 h-5 hover:text-blue-700 transition " />
