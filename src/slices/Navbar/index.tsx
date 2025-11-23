@@ -4,11 +4,7 @@ import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
 import { PrismicRichText } from "@prismicio/react";
 import { Menu, X, ChevronDown, User, ShoppingBag, Search as SearchIcon } from "lucide-react";
 
-<<<<<<< HEAD:src/slices/Navbar/index.tsx
 const Navbar = ({ slice }: any) => {
-=======
-const Navbar = ({ slice }) => {
->>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/Navbar/index.js
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [cartCount, setCartCount] = useState(0);
 

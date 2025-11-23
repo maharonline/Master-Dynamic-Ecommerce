@@ -161,10 +161,6 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
                     className="w-6 h-6 rounded-full border"
                     style={{ backgroundColor: item.color_value }}
                   ></div>
-<<<<<<< HEAD:src/slices/ProductDetail/index.tsx
-=======
-                  {/* <span className="text-xs mt-1 text-black">{item.color_label}</span> */}
->>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/ProductDetail/index.js
                 </div>
               ))}
             </div>
