@@ -222,14 +222,6 @@
             }
           }
         },
-        "feature": {
-          "type": "Image",
-          "config": {
-            "label": "Feature",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
         "row": {
           "type": "Group",
           "config": {
@@ -278,6 +270,70 @@
           "config": {
             "label": "Play Time Description",
             "placeholder": ""
+          }
+        },
+        "video_section": {
+          "type": "Group",
+          "config": {
+            "label": "video section",
+            "repeat": true,
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "icon": {
+                "type": "Image",
+                "config": {
+                  "label": "icon",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "heading": {
+                "type": "Text",
+                "config": {
+                  "label": "Heading",
+                  "placeholder": ""
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "Description",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "headings": {
+          "type": "Group",
+          "config": {
+            "label": "Headings",
+            "repeat": true,
+            "fields": {
+              "heading": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Heading",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "heading2"
+                }
+              },
+              "paragraph": {
+                "type": "Text",
+                "config": {
+                  "label": "Paragraph",
+                  "placeholder": ""
+                }
+              }
+            }
           }
         }
       },

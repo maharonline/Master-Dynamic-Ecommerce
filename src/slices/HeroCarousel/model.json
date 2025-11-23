@@ -51,6 +51,13 @@
               }
             }
           }
+        },
+        "sale_offer_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Sale_offer_Heading",
+            "placeholder": ""
+          }
         }
       },
       "items": {}

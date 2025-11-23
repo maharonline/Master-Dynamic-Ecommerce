@@ -4,7 +4,6 @@
 		"variation": "default",
 		"primary": {
 			"icon": {
-				"__TYPE__": "ImageContent",
 				"origin": {
 					"id": "main",
 					"url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
@@ -22,7 +21,9 @@
 					},
 					"background": "transparent"
 				},
-				"alt": "without"
+				"alt": "without",
+				"credits": null,
+				"__TYPE__": "ImageContent"
 			},
 			"title": {
 				"__TYPE__": "StructuredTextContent",
@@ -36,12 +37,21 @@
 				]
 			},
 			"primary_link": {
-				"__TYPE__": "LinkContent",
 				"key": "0be53d64-0d45-40fa-9df2-5314be023290",
+				"__TYPE__": "LinkContent",
 				"value": {
 					"__TYPE__": "ExternalLink",
 					"url": "http://google.com",
 					"text": "pictured"
+				}
+			},
+			"checkoutpage": {
+				"__TYPE__": "LinkContent",
+				"key": "2e9ea2bd-56a4-4d55-8d9b-e91ed6f6fcfc",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "inch"
 				}
 			}
 		},

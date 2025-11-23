@@ -54,6 +54,14 @@
                   "allowText": true,
                   "repeat": false
                 }
+              },
+              "icon": {
+                "type": "Image",
+                "config": {
+                  "label": "icon",
+                  "constraint": {},
+                  "thumbnails": []
+                }
               }
             }
           }

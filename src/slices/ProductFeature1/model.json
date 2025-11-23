@@ -167,14 +167,6 @@
             "repeat": false
           }
         },
-        "banner_image": {
-          "type": "Image",
-          "config": {
-            "label": "Banner Image",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
         "support_section": {
           "type": "Group",
           "config": {
@@ -212,6 +204,48 @@
                   "allowTargetBlank": true,
                   "allowText": true,
                   "repeat": false
+                }
+              }
+            }
+          }
+        },
+        "banner_image_section": {
+          "type": "Group",
+          "config": {
+            "label": "Banner Image Section",
+            "repeat": true,
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "cta_button": {
+                "type": "Link",
+                "config": {
+                  "label": "CTA Button",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              },
+              "heading": {
+                "type": "Text",
+                "config": {
+                  "label": "Heading",
+                  "placeholder": ""
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "Description",
+                  "placeholder": ""
                 }
               }
             }

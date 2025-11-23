@@ -77,6 +77,11 @@
 						]
 					}
 				]
+			},
+			"sale_offer_heading": {
+				"__TYPE__": "FieldContent",
+				"value": "die",
+				"type": "Text"
 			}
 		},
 		"items": []

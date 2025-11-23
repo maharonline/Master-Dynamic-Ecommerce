@@ -1962,6 +1962,16 @@ export interface CompareProductsSliceDefaultPrimaryProduct2Item {
     prismic.FieldState,
     never
   >;
+
+  /**
+   * icon field in *CompareProducts → Default → Primary → Product2*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: compare_products.default.primary.product2[].icon
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  icon: prismic.ImageField<never>;
 }
 
 /**
@@ -2165,6 +2175,22 @@ export interface EmptyStateSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/fields/link
    */
   primary_link: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
+
+  /**
+   * CheckOutPage field in *Cart → Default → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: empty_state.default.primary.checkoutpage
+   * - **Documentation**: https://prismic.io/docs/fields/link
+   */
+  checkoutpage: prismic.LinkField<
     string,
     string,
     unknown,
@@ -3333,6 +3359,16 @@ export interface HeroCarouselSliceDefaultPrimary {
   slides: prismic.GroupField<
     Simplify<HeroCarouselSliceDefaultPrimarySlidesItem>
   >;
+
+  /**
+   * Sale_offer_Heading field in *HeroCarousel → Default → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_carousel.default.primary.sale_offer_heading
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  sale_offer_heading: prismic.KeyTextField;
 }
 
 /**
@@ -4002,6 +4038,56 @@ export interface NewsletterWithLinksColumnsSliceNewsletterSignupWithGroupedLinks
   socialmedialink: prismic.GroupField<
     Simplify<NewsletterWithLinksColumnsSliceNewsletterSignupWithGroupedLinksPrimarySocialmedialinkItem>
   >;
+
+  /**
+   * spotifyicon field in *Footer → Footer → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: newsletter_with_links_columns.newsletter_signup_with_grouped_links.primary.spotifyicon
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  spotifyicon: prismic.ImageField<never>;
+
+  /**
+   * FacebookIcon field in *Footer → Footer → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: newsletter_with_links_columns.newsletter_signup_with_grouped_links.primary.facebookicon
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  facebookicon: prismic.ImageField<never>;
+
+  /**
+   * TwitterIcon field in *Footer → Footer → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: newsletter_with_links_columns.newsletter_signup_with_grouped_links.primary.twittericon
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  twittericon: prismic.ImageField<never>;
+
+  /**
+   * InstgramIcon field in *Footer → Footer → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: newsletter_with_links_columns.newsletter_signup_with_grouped_links.primary.instgramicon
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  instgramicon: prismic.ImageField<never>;
+
+  /**
+   * youtubeIcon field in *Footer → Footer → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: newsletter_with_links_columns.newsletter_signup_with_grouped_links.primary.youtubeicon
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  youtubeicon: prismic.ImageField<never>;
 }
 
 /**
@@ -4230,6 +4316,76 @@ export interface ProductDetailSliceWithFeaturesOptionsBadgesPrimaryRowItem {
 }
 
 /**
+ * Item in *ProductDetail → With Features, Options & Badges → Primary → video section*
+ */
+export interface ProductDetailSliceWithFeaturesOptionsBadgesPrimaryVideoSectionItem {
+  /**
+   * image field in *ProductDetail → With Features, Options & Badges → Primary → video section*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_detail.with_features_options_badges.primary.video_section[].image
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
+   * icon field in *ProductDetail → With Features, Options & Badges → Primary → video section*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_detail.with_features_options_badges.primary.video_section[].icon
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  icon: prismic.ImageField<never>;
+
+  /**
+   * Heading field in *ProductDetail → With Features, Options & Badges → Primary → video section*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_detail.with_features_options_badges.primary.video_section[].heading
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  heading: prismic.KeyTextField;
+
+  /**
+   * Description field in *ProductDetail → With Features, Options & Badges → Primary → video section*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_detail.with_features_options_badges.primary.video_section[].description
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  description: prismic.KeyTextField;
+}
+
+/**
+ * Item in *ProductDetail → With Features, Options & Badges → Primary → Headings*
+ */
+export interface ProductDetailSliceWithFeaturesOptionsBadgesPrimaryHeadingsItem {
+  /**
+   * Heading field in *ProductDetail → With Features, Options & Badges → Primary → Headings*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_detail.with_features_options_badges.primary.headings[].heading
+   * - **Documentation**: https://prismic.io/docs/fields/rich-text
+   */
+  heading: prismic.RichTextField;
+
+  /**
+   * Paragraph field in *ProductDetail → With Features, Options & Badges → Primary → Headings*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_detail.with_features_options_badges.primary.headings[].paragraph
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  paragraph: prismic.KeyTextField;
+}
+
+/**
  * Primary content in *ProductDetail → With Features, Options & Badges → Primary*
  */
 export interface ProductDetailSliceWithFeaturesOptionsBadgesPrimary {
@@ -4428,16 +4584,6 @@ export interface ProductDetailSliceWithFeaturesOptionsBadgesPrimary {
   >;
 
   /**
-   * Feature field in *ProductDetail → With Features, Options & Badges → Primary*
-   *
-   * - **Field Type**: Image
-   * - **Placeholder**: *None*
-   * - **API ID Path**: product_detail.with_features_options_badges.primary.feature
-   * - **Documentation**: https://prismic.io/docs/fields/image
-   */
-  feature: prismic.ImageField<never>;
-
-  /**
    * Row field in *ProductDetail → With Features, Options & Badges → Primary*
    *
    * - **Field Type**: Group
@@ -4468,6 +4614,30 @@ export interface ProductDetailSliceWithFeaturesOptionsBadgesPrimary {
    * - **Documentation**: https://prismic.io/docs/fields/text
    */
   play_time_description: prismic.KeyTextField;
+
+  /**
+   * video section field in *ProductDetail → With Features, Options & Badges → Primary*
+   *
+   * - **Field Type**: Group
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_detail.with_features_options_badges.primary.video_section[]
+   * - **Documentation**: https://prismic.io/docs/fields/repeatable-group
+   */
+  video_section: prismic.GroupField<
+    Simplify<ProductDetailSliceWithFeaturesOptionsBadgesPrimaryVideoSectionItem>
+  >;
+
+  /**
+   * Headings field in *ProductDetail → With Features, Options & Badges → Primary*
+   *
+   * - **Field Type**: Group
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_detail.with_features_options_badges.primary.headings[]
+   * - **Documentation**: https://prismic.io/docs/fields/repeatable-group
+   */
+  headings: prismic.GroupField<
+    Simplify<ProductDetailSliceWithFeaturesOptionsBadgesPrimaryHeadingsItem>
+  >;
 }
 
 /**
@@ -4684,6 +4854,57 @@ export interface ProductFeature1SliceDefaultPrimarySupportSectionItem {
 }
 
 /**
+ * Item in *ProductFeature1 → Default → Primary → Banner Image Section*
+ */
+export interface ProductFeature1SliceDefaultPrimaryBannerImageSectionItem {
+  /**
+   * image field in *ProductFeature1 → Default → Primary → Banner Image Section*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_feature1.default.primary.banner_image_section[].image
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
+   * CTA Button field in *ProductFeature1 → Default → Primary → Banner Image Section*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_feature1.default.primary.banner_image_section[].cta_button
+   * - **Documentation**: https://prismic.io/docs/fields/link
+   */
+  cta_button: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
+
+  /**
+   * Heading field in *ProductFeature1 → Default → Primary → Banner Image Section*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_feature1.default.primary.banner_image_section[].heading
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  heading: prismic.KeyTextField;
+
+  /**
+   * Description field in *ProductFeature1 → Default → Primary → Banner Image Section*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_feature1.default.primary.banner_image_section[].description
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  description: prismic.KeyTextField;
+}
+
+/**
  * Primary content in *ProductFeature1 → Default → Primary*
  */
 export interface ProductFeature1SliceDefaultPrimary {
@@ -4770,16 +4991,6 @@ export interface ProductFeature1SliceDefaultPrimary {
   >;
 
   /**
-   * Banner Image field in *ProductFeature1 → Default → Primary*
-   *
-   * - **Field Type**: Image
-   * - **Placeholder**: *None*
-   * - **API ID Path**: product_feature1.default.primary.banner_image
-   * - **Documentation**: https://prismic.io/docs/fields/image
-   */
-  banner_image: prismic.ImageField<never>;
-
-  /**
    * Support Section field in *ProductFeature1 → Default → Primary*
    *
    * - **Field Type**: Group
@@ -4789,6 +5000,18 @@ export interface ProductFeature1SliceDefaultPrimary {
    */
   support_section: prismic.GroupField<
     Simplify<ProductFeature1SliceDefaultPrimarySupportSectionItem>
+  >;
+
+  /**
+   * Banner Image Section field in *ProductFeature1 → Default → Primary*
+   *
+   * - **Field Type**: Group
+   * - **Placeholder**: *None*
+   * - **API ID Path**: product_feature1.default.primary.banner_image_section[]
+   * - **Documentation**: https://prismic.io/docs/fields/repeatable-group
+   */
+  banner_image_section: prismic.GroupField<
+    Simplify<ProductFeature1SliceDefaultPrimaryBannerImageSectionItem>
   >;
 }
 
@@ -5529,6 +5752,8 @@ declare module "@prismicio/client" {
       ProductDetailSliceWithFeaturesOptionsBadgesPrimaryFeatureHighlightsItem,
       ProductDetailSliceWithFeaturesOptionsBadgesPrimaryButtonItem,
       ProductDetailSliceWithFeaturesOptionsBadgesPrimaryRowItem,
+      ProductDetailSliceWithFeaturesOptionsBadgesPrimaryVideoSectionItem,
+      ProductDetailSliceWithFeaturesOptionsBadgesPrimaryHeadingsItem,
       ProductDetailSliceWithFeaturesOptionsBadgesPrimary,
       ProductDetailSliceVariation,
       ProductDetailSliceWithFeaturesOptionsBadges,
@@ -5537,6 +5762,7 @@ declare module "@prismicio/client" {
       ProductFeature1SliceDefaultPrimaryProductfeatureback2Item,
       ProductFeature1SliceDefaultPrimaryHighlightedGridFeatureItem,
       ProductFeature1SliceDefaultPrimarySupportSectionItem,
+      ProductFeature1SliceDefaultPrimaryBannerImageSectionItem,
       ProductFeature1SliceDefaultPrimary,
       ProductFeature1SliceVariation,
       ProductFeature1SliceDefault,

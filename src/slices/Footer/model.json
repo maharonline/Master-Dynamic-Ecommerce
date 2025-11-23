@@ -131,6 +131,46 @@
               }
             }
           }
+        },
+        "spotifyicon": {
+          "type": "Image",
+          "config": {
+            "label": "spotifyicon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "facebookicon": {
+          "type": "Image",
+          "config": {
+            "label": "FacebookIcon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "twittericon": {
+          "type": "Image",
+          "config": {
+            "label": "TwitterIcon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "instgramicon": {
+          "type": "Image",
+          "config": {
+            "label": "InstgramIcon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "youtubeicon": {
+          "type": "Image",
+          "config": {
+            "label": "youtubeIcon",
+            "constraint": {},
+            "thumbnails": []
+          }
         }
       },
       "items": {}

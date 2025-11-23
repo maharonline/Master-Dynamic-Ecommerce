@@ -32,6 +32,17 @@
             "repeat": false,
             "select": null
           }
+        },
+        "checkoutpage": {
+          "type": "Link",
+          "config": {
+            "label": "CheckOutPage",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
         }
       },
       "items": {}
