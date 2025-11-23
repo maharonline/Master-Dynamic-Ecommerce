@@ -2,5 +2,6 @@
   "repositoryName": "headphonestore",
   "adapter": "@slicemachine/adapter-next",
   "libraries": ["./src/slices"],
-  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
+  "localSliceSimulatorURL": "https://master-dynamic-ecommerce.vercel.app/slice-simulator"
+
 }

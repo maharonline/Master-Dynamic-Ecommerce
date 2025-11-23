@@ -161,6 +161,10 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
                     className="w-6 h-6 rounded-full border"
                     style={{ backgroundColor: item.color_value }}
                   ></div>
+<<<<<<< HEAD:src/slices/ProductDetail/index.tsx
+=======
+                  {/* <span className="text-xs mt-1 text-black">{item.color_label}</span> */}
+>>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/ProductDetail/index.js
                 </div>
               ))}
             </div>
@@ -253,6 +257,7 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
 
       {/*===== Banner1 ===== */}
       {/*===== Banner1 ===== */}
+<<<<<<< HEAD:src/slices/ProductDetail/index.tsx
       <div className="w-full">
         {slice?.primary?.video_section?.map((item, index) => (
           <div key={index} className="relative w-full">
@@ -271,10 +276,31 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
               {/* Heading */}
               {item.heading && (
                 <h2 className="
+=======
+<div className="w-full">
+  {slice?.primary?.video_section?.map((item, index) => (
+    <div key={index} className="relative w-full">
+
+      {/* Background Image */}
+      {item.image && (
+        <PrismicNextImage
+          field={item.image}
+          className="w-full h-[260px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover brightness-75"
+        />
+      )}
+
+      {/* Overlay Content */}
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+
+        {/* Heading */}
+        {item.heading && (
+          <h2 className="
+>>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/ProductDetail/index.js
               text-white
               text-lg sm:text-2xl md:text-3xl lg:text-4xl
               font-medium mb-3 leading-snug max-w-[90%] sm:max-w-[600px]
           ">
+<<<<<<< HEAD:src/slices/ProductDetail/index.tsx
                   {item.heading}
                 </h2>
               )}
@@ -282,11 +308,21 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
               {/* Description */}
               {item.description && (
                 <p className="
+=======
+            {item.heading}
+          </h2>
+        )}
+
+        {/* Description */}
+        {item.description && (
+          <p className="
+>>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/ProductDetail/index.js
               text-white
               text-xs sm:text-sm md:text-base lg:text-lg
               font-medium leading-6 mb-5
               max-w-[95%] sm:max-w-[650px]
           ">
+<<<<<<< HEAD:src/slices/ProductDetail/index.tsx
                   {item.description}
                 </p>
               )}
@@ -296,12 +332,24 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
                 <PrismicNextImage
                   field={item.icon}
                   className="
+=======
+            {item.description}
+          </p>
+        )}
+
+        {/* Icon / CTA */}
+        {item.icon && (
+          <PrismicNextImage
+            field={item.icon}
+            className="
+>>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/ProductDetail/index.js
               w-24 h-24 
               sm:w-28 sm:h-28
               md:w-32 md:h-32
               lg:w-40 lg:h-40
               object-contain
             "
+<<<<<<< HEAD:src/slices/ProductDetail/index.tsx
                 />
               )}
             </div>
@@ -426,6 +474,171 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
         <PrismicNextImage
           field={slice.primary.banner_image}
           className="w-full h-auto md:h-[750px] object-cover"
+        />
+      </div>
+=======
+          />
+        )}
+      </div>
+    </div>
+  ))}
+</div>
+
+
+      {/*======== Headings ===========*/}
+
+       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 py-12 px-10 justify-items-center bg-white">
+       {slice.primary.headings?.map((item, index) => (
+         <div key={index} className="text-center space-y-2 w-[300px]">
+           {/* Heading */}
+           {item.heading && (
+             <div className="text-lg md:text-xl font-semibold text-[#4A4A4A]">
+               <PrismicRichText field={item.heading} />
+             </div>
+           )}
+     
+           {/* Paragraph / Description */}
+           {item.paragraph && (
+             <p className="text-black text-sm md:text-base leading-relaxed">
+               {item.paragraph}
+             </p>
+           )}
+         </div>
+       ))}
+     </div>
+
+
+      {/*=====Intuitive ANC Zigzag====*/}
+
+      <div className="max-w-full mx-auto px-6 md:px-10 py-16 bg-white">
+        {slice.primary.row?.map((item, index) => (
+          <div
+            key={index}
+            className={`flex flex-col md:flex-row items-center justify-center w-full ${index % 2 === 1 ? "md:flex-row-reverse" : ""
+              }`}
+          >
+            {/* Image Block */}
+            <div className="w-full md:w-1/2 flex justify-center items-center ">
+              <PrismicNextImage
+                field={item.media_image}
+                className="w-full auto object-contain  "
+              />
+            </div>
+
+            {/* Text Block */}
+            {/* Text Block */}
+<div className="
+  w-full md:w-1/2 
+  flex flex-col 
+  justify-center 
+  items-center md:items-start 
+  text-center md:text-left 
+  p-6 md:p-8
+">
+
+  <PrismicRichText
+    field={item.heading}
+    components={{
+      heading2: ({ children }) => (
+        <h2 className="
+          text-xl sm:text-2xl md:text-3xl
+          font-medium mb-3  
+          text-[#4A4A4A]
+          leading-tight sm:leading-snug md:leading-[41px]
+        ">
+          {children}
+        </h2>
+      ),
+    }}
+  />
+
+  <PrismicRichText
+    field={item.body}
+    components={{
+      paragraph: ({ children }) => (
+        <p className="
+          text-gray-600 
+          text-sm sm:text-base
+          font-medium 
+          leading-relaxed
+          max-w-[490px] w-full
+        ">
+          {children}
+        </p>
+      ),
+    }}
+  />
+
+  {item.cta?.url && (
+    <div className="mt-4">
+      <PrismicNextLink
+        field={item.cta}
+        className="
+          inline-block 
+          bg-gray-900 text-white 
+          px-6 py-2 
+          rounded-lg 
+          text-sm 
+          font-medium 
+          hover:bg-gray-700 
+          transition
+        "
+      >
+        Learn More
+      </PrismicNextLink>
+    </div>
+  )}
+</div>
+>>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/ProductDetail/index.js
+
+
+            {/* <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left p-6 md:p-8">
+              <PrismicRichText
+                field={item.heading}
+                components={{
+                  heading2: ({ children }) => (
+                    <h2 className="text-2xl md:text-3xl font-medium mb-3  text-[#4A4A4A] leading-[41px]">
+                      {children}
+                    </h2>
+                  ),
+                }}
+              />
+
+              <PrismicRichText
+                field={item.body}
+                components={{
+                  paragraph: ({ children }) => (
+                    <p className="text-gray-600 w-[490px] text-sm md:text-sm font-medium leading-relaxed">
+                      {children}
+                    </p>
+                  ),
+                }}
+              />
+
+              {item.cta?.url && (
+                <div className="mt-4">
+                  <PrismicNextLink
+                    field={item.cta}
+                    className="inline-block bg-gray-900 text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition"
+                  >
+                    Learn More
+                  </PrismicNextLink>
+                </div>
+              )}
+            </div> */}
+
+
+          </div>
+        ))}
+      </div>
+
+      {/* Banner Image 2 */}
+
+      <div className="w-full ">
+        <PrismicNextImage
+          field={slice.primary.banner_image}
+          className="w-full h-auto md:h-[750px] object-cover"
+          style={{ width: "100%" }}
         />
       </div>
 
