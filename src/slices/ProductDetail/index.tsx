@@ -253,7 +253,6 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
 
       {/*===== Banner1 ===== */}
       {/*===== Banner1 ===== */}
-<<<<<<< HEAD:src/slices/ProductDetail/index.tsx
       <div className="w-full">
         {slice?.primary?.video_section?.map((item, index) => (
           <div key={index} className="relative w-full">
@@ -272,7 +271,6 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
               {/* Heading */}
               {item.heading && (
                 <h2 className="
-=======
 <div className="w-full">
   {slice?.primary?.video_section?.map((item, index) => (
     <div key={index} className="relative w-full">
@@ -291,12 +289,10 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
         {/* Heading */}
         {item.heading && (
           <h2 className="
->>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/ProductDetail/index.js
               text-white
               text-lg sm:text-2xl md:text-3xl lg:text-4xl
               font-medium mb-3 leading-snug max-w-[90%] sm:max-w-[600px]
           ">
-<<<<<<< HEAD:src/slices/ProductDetail/index.tsx
                   {item.heading}
                 </h2>
               )}
@@ -304,7 +300,6 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
               {/* Description */}
               {item.description && (
                 <p className="
-=======
             {item.heading}
           </h2>
         )}
@@ -312,13 +307,11 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
         {/* Description */}
         {item.description && (
           <p className="
->>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/ProductDetail/index.js
               text-white
               text-xs sm:text-sm md:text-base lg:text-lg
               font-medium leading-6 mb-5
               max-w-[95%] sm:max-w-[650px]
           ">
-<<<<<<< HEAD:src/slices/ProductDetail/index.tsx
                   {item.description}
                 </p>
               )}
@@ -328,7 +321,6 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
                 <PrismicNextImage
                   field={item.icon}
                   className="
-=======
             {item.description}
           </p>
         )}
@@ -338,14 +330,12 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
           <PrismicNextImage
             field={item.icon}
             className="
->>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/ProductDetail/index.js
               w-24 h-24 
               sm:w-28 sm:h-28
               md:w-32 md:h-32
               lg:w-40 lg:h-40
               object-contain
             "
-<<<<<<< HEAD:src/slices/ProductDetail/index.tsx
                 />
               )}
             </div>
@@ -472,7 +462,6 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
           className="w-full h-auto md:h-[750px] object-cover"
         />
       </div>
-=======
           />
         )}
       </div>
@@ -585,7 +574,6 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
     </div>
   )}
 </div>
->>>>>>> 296fbed52c39d32b87de4e67ada620e7f7ca6750:src/slices/ProductDetail/index.js
 
 
             {/* <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left p-6 md:p-8">
