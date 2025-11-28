@@ -36,7 +36,7 @@ const Navbar = ({ slice }: any) => {
             <PrismicNextLink key={index} field={item.link}>
               <PrismicNextImage
                 field={item.image}
-                className="w-28 md:w-[220px] h-[10px] object-cover cursor-pointer hover:opacity-80 transition"
+                className="w-28 md:w-[200px] h-[10px] object-cover cursor-pointer hover:opacity-80 transition"
               />
             </PrismicNextLink>
           ))}
