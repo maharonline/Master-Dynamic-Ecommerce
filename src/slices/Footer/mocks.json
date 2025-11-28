@@ -231,7 +231,6 @@
 				"thumbnails": {}
 			},
 			"youtubeicon": {
-				"__TYPE__": "ImageContent",
 				"origin": {
 					"id": "main",
 					"url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea",
@@ -250,7 +249,14 @@
 					"background": "transparent"
 				},
 				"alt": "bat",
+				"credits": null,
+				"__TYPE__": "ImageContent",
 				"thumbnails": {}
+			},
+			"copywritesection": {
+				"__TYPE__": "FieldContent",
+				"value": "column",
+				"type": "Text"
 			}
 		},
 		"items": []

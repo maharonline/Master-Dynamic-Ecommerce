@@ -251,7 +251,7 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
       </div>
 
 
-      {/*===== Banner1 ===== */}
+
       {/*===== Banner1 ===== */}
       <div className="w-full">
         {slice?.primary?.video_section?.map((item, index) => (
@@ -261,7 +261,7 @@ const ProductDetail = ({ slice }: ProductDetailSliceProps) => {
             {item.image && (
               <PrismicNextImage
                 field={item.image}
-                className="w-full h-[260px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover brightness-75"
+                className="w-full h-[560px] sm:h-[500px] md:h-full object-cover brightness-75"
               />
             )}
 

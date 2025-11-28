@@ -171,6 +171,13 @@
             "constraint": {},
             "thumbnails": []
           }
+        },
+        "copywritesection": {
+          "type": "Text",
+          "config": {
+            "label": "CopywriteSection",
+            "placeholder": ""
+          }
         }
       },
       "items": {}

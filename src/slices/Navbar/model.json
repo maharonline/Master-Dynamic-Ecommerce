@@ -118,6 +118,28 @@
               }
             }
           }
+        },
+        "submit_a_request": {
+          "type": "Link",
+          "config": {
+            "label": "Submit A Request",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        },
+        "return_to_site": {
+          "type": "Link",
+          "config": {
+            "label": "Return To Site",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
         }
       },
       "items": {}

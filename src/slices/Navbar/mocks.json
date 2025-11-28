@@ -128,6 +128,24 @@
 						]
 					}
 				]
+			},
+			"submit_a_request": {
+				"key": "d4ed79e0-8ecc-4dda-8321-5e4607578009",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "passage"
+				}
+			},
+			"return_to_site": {
+				"__TYPE__": "LinkContent",
+				"key": "c04a0fe6-4f20-4153-aa13-7959ae5e11f2",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://twitter.com",
+					"text": "pole"
+				}
 			}
 		},
 		"items": []

@@ -3819,6 +3819,38 @@ export interface NavbarSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/fields/repeatable-group
    */
   logo: prismic.GroupField<Simplify<NavbarSliceDefaultPrimaryLogoItem>>;
+
+  /**
+   * Submit A Request field in *Navbar → Default → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: navbar.default.primary.submit_a_request
+   * - **Documentation**: https://prismic.io/docs/fields/link
+   */
+  submit_a_request: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
+
+  /**
+   * Return To Site field in *Navbar → Default → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: navbar.default.primary.return_to_site
+   * - **Documentation**: https://prismic.io/docs/fields/link
+   */
+  return_to_site: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 }
 
 /**
@@ -4088,6 +4120,16 @@ export interface NewsletterWithLinksColumnsSliceNewsletterSignupWithGroupedLinks
    * - **Documentation**: https://prismic.io/docs/fields/image
    */
   youtubeicon: prismic.ImageField<never>;
+
+  /**
+   * CopywriteSection field in *Footer → Footer → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: newsletter_with_links_columns.newsletter_signup_with_grouped_links.primary.copywritesection
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  copywritesection: prismic.KeyTextField;
 }
 
 /**
